@@ -1,0 +1,7 @@
+# What is Hoisting in JavaScript ?
+
+* Hoisting is the speacial behaviour in the Javascript.
+* In other Programming languages, usually in order to use the functions or variables we need to declare it first.
+* But in the JavaScript, functions or variables can be used before declaring it.
+* As the JS compiler it moves all the declaration's of functions and variables to the top of the scope.
+* This does because so their should not occur error.
