@@ -1,0 +1,17 @@
+## 2) What is Primitive and Non Primitive ?
+
+* Primitive data types
+1) Number
+2) String
+3) Symbol
+4) Null
+5) Undefined
+6) Bigint
+7) boolean
+
+* Non Primitive data types
+1) Object
+2) Array
+3) Date
+
+The above are different data types which are used throughout the JavaScript programming.
