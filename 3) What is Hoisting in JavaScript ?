@@ -5,3 +5,12 @@
 * But in the JavaScript, functions or variables can be used before declaring it.
 * As the JS compiler it moves all the declaration's of functions and variables to the top of the scope.
 * This does because so their should not occur error.
+
+# What are the various things hoisted in JavaScript ?
+
+* Function Declaration - Fully Hoisted
+* Var - Fully Hoisted
+* Arrow Function - Not Hoisted
+* Anonymous Function - Not Hoisted
+* Let and Const - Hoisted but not initiallized
+* class Declaration - Hoisted but not initiallized
