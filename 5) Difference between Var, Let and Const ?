@@ -1,0 +1,23 @@
+## Difference between Var, Let and Const ?
+
+* The variables declared with var are function scoped(Available throughout the function where it is declared) or globle scope(if defined outside the function), 
+  As it can be reassigned and also fully hoisted with initialized.
+* Variables declared with the let and const are blocked scope, her let can be reassigned but const can't. Both of them gets hoisted to top of scope but won't get
+  Assigned with any value.(causes Temporal Dead Zone)
+
+// var example
+var x = 10;
+var x = 20; // re-declaration allowed
+x = 30;     // reassignment allowed
+console.log(x); // 30
+
+// let example
+let y = 10;
+// let y = 20; // ❌ Error: cannot re-declare in same block
+y = 25; // reassignment allowed
+console.log(y); // 25
+
+// const example
+const z = 10;
+// z = 20; // ❌ Error: cannot reassign
+console.log(z); // 10
