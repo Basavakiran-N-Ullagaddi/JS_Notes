@@ -8,3 +8,11 @@
 
 * Prevents accidental use of variables before they are properly initialized.
 * Encourages cleaner, more predictable code. 
+
+Example
+{
+  // TDZ starts here
+  console.log(myVar); // ReferenceError
+  let myVar = 10;     // TDZ ends here
+  console.log(myVar); // 10
+}
