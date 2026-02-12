@@ -10,9 +10,22 @@
 * Encourages cleaner, more predictable code. 
 
 Example
+1) 
 {
   // TDZ starts here
   console.log(myVar); // ReferenceError
   let myVar = 10;     // TDZ ends here
   console.log(myVar); // 10
 }
+
+2) 
+function demoTDZ() {
+  // TDZ starts here for 'x'
+  if (true) {
+    console.log(x); // ReferenceError: Cannot access 'x' before initialization
+    let x = 5;      // TDZ ends here
+    console.log(x); // 5
+  }
+}
+
+demoTDZ();
